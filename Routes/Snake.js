@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const { addFriendsValidation, FriendValidation } = require('/Users/vinaykumar/Desktop/Product/video calling/backend/Validations/FriendsValidation.js');
-const Friend = require('/Users/vinaykumar/Desktop/Product/video calling/backend/Model/Friend.js');
+const { addFriendsValidation, FriendValidation } = require('../Validations/FriendsValidation.js');
+const Friend = require('../Model/Friend.js');
 const User = require("../Model/User")
 const authMiddleware = require('../Authmiddleware/authmiddleware');
 const { message } = require('../Validations/Validation');
